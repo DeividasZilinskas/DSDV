@@ -16,6 +16,8 @@ import java.util.Map;
 
 /**
  * Created by deividas on 5/28/16.
+ * This class receives router tables from other routers, calculates shortest routes to other routers and updates
+ * it's routing table
  */
 public class ReceiveRouters implements Runnable {
 

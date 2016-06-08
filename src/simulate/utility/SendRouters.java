@@ -12,6 +12,7 @@ import java.util.Map;
 
 /**
  * Created by deividas on 5/28/16.
+ * This class keeps sending router table to other routers
  */
 public class SendRouters implements Runnable {
 
@@ -23,7 +24,7 @@ public class SendRouters implements Runnable {
         this.links = links;
         this.routers = routers;
     }
-
+    
     @Override
     public void run() {
         while(true) {

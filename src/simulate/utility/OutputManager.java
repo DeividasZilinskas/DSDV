@@ -7,6 +7,7 @@ import java.util.Map;
 
 /**
  * Created by deividas on 5/28/16.
+ * This class prints routing table to console every second.
  */
 public class OutputManager implements Runnable {
 

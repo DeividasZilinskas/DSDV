@@ -10,6 +10,7 @@ import java.util.HashMap;
 
 /**
  * Created by deividas on 5/28/16.
+ * This is CSV file parser.
  */
 public class FileManager {
 
